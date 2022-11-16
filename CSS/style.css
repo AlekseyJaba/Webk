@@ -1,0 +1,95 @@
+:root{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62.5%;
+    --text-color: #2A2A2A;
+    --text-color1:#FFFFFF;
+    --background-color: #FF6D8D;
+    --background-color2: #74C5FF;
+    --background-color3: #FFF2D6;
+    --background-color4:#6A19F5;
+    --background-color5:#2580C1;
+    --shadow-color:rgba(0, 0, 0, 0.05);
+}
+.sec1{
+    background-color: var(--background-color2);
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 118%;
+    color: var(--text-color);
+    text-shadow:0px 4px 4px var(--shadow-color);
+    text-align: center;
+    letter-spacing: 5%;
+}
+.quote{
+    font-size: 2.86rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--text-color);
+    text-align: left;
+}
+.secound{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--text-color);
+    text-align: left;
+}
+.sec2{
+    background-color: var(--background-color);
+}
+h2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 130%;
+    color: var(--text-color);
+    text-align: center;
+    letter-spacing: 5%;
+}
+.biochemist{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--text-color);
+    text-align: center;
+}
+.name{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--text-color);
+    text-align: center;
+}
+.Puzzle{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--text-color);
+    text-align: left;
+}
+a.attend{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 150%;
+    color: var(--text-color1);
+    text-align: left;
+    letter-spacing: 5%;
+    background-color: var(--background-color4);
+}
+.sec4{
+    background-color: var(--background-color5);
+}
+.RUN{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 5%;
+    color: var(--text-color1);
+}
+.virtual{
+    
+}
+
+
