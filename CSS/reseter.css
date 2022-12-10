@@ -162,7 +162,9 @@ hr {
 dl,
 ol,
 ul {
-  margin: 1em 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 ol ol,
