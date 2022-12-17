@@ -8,12 +8,11 @@
     --background-color3: #FFF2D6;
     --background-color4:#6A19F5;
     --background-color5:#2580C1;
+    --background-color6: #F6C55A;
     --shadow-color:rgba(0, 0, 0, 0.25);
-    
     font-weight: 500;
 }
 header{
-    height: 6.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +40,7 @@ section{
     padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 900px;
+    max-width: 775px;
 }
 .Mathopolis{
     display: block;
@@ -59,7 +58,7 @@ section{
 .list{
     flex-grow: 1;
     display: none;
-    max-width: 50rem;
+    max-width: 90rem;
     align-items: center;
     justify-content: space-between;
     margin-left: 10rem;
@@ -68,7 +67,7 @@ section{
 .item{
     display: block;
     flex-shrink: 0;
-    align-items: center;
+    align-items: center
 }
 
 .item-button{
@@ -78,8 +77,6 @@ section{
     padding-bottom: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    height: inherit;
-    line-height: inherit;
     border-radius: 0.5rem;
     color: var(--text-color1);
     background-color: var(--background-color);
@@ -90,14 +87,14 @@ section{
 }
 
 .sec1{
-    background-color: var(--background-color2);    
+    background-color: var(--background-color2);
+    background-image: "img/Vector25.svg";
+    height: 815px;
 }
 .one{
     padding-bottom: 6.8rem;
     padding-top: 6.8rem;
-    max-width: 775px;
-}
-
+    max-width: 775px;}
 h1{
     font-size: 3.5rem;
     font-weight: 400;
@@ -111,7 +108,8 @@ h1{
 }
 p.quote{
     display: inline;
-    font-size: 2.86rem;
+    font-weight: 500;
+    font-size: 2.8rem;
     line-height: 130%;
     color: var(--text-color);
     text-align: left;
@@ -126,9 +124,11 @@ p.secound{
 }
  .pic1{
     display: block;
-    margin-bottom: 6.8rem;
+    margin-top: 6.8rem;
     max-width: 100%;
     object-fit: cover;
+    width: 37.5rem;
+    height: 30.5rem;
  }
 .sec2{
     background-color: var(--background-color);
@@ -140,8 +140,17 @@ p.secound{
 .two{
     padding-bottom: 10rem;
     padding-top: 10rem;
+    max-width: 900px;
 }
 h2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 130%;
+    color: var(--text-color);
+    text-align: center;
+    letter-spacing: 5%;
+}
+.tes{
     font-size: 3rem;
     font-weight: 600;
     line-height: 130%;
@@ -195,9 +204,12 @@ h2{
 .img3{
     margin-top: 5rem;
     margin-bottom: 5rem;
+    width: 37.5rem;
+    height: 37.5rem;
 }
 .three{
     margin-bottom: 10rem;
+    max-width: 60rem;
 }
 .Puzzle{
     font-size: 1.4rem;
@@ -207,7 +219,12 @@ h2{
     padding-top: 2em;
     padding-bottom: 5em;
 }
-
+.start{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 1.5rem;
+}
 a.attend{
     font-size: 1.8rem;
     font-weight: 600;
@@ -229,18 +246,18 @@ a.attend{
 .pic4{
     margin-top: 10rem;
     margin-bottom: 3rem;
+    display: block;
+    width: 37.5rem;
+    height: 26.2rem;
 }
 .four{
     margin-bottom: 10rem;
+    max-width: 550px;
 }
 .RUN{
-    font-size: 3rem;
-    font-weight: 600;
-    line-height: 130%;
-    text-align: center;
-    letter-spacing: 5%;
+    
     color: var(--text-color1);
-    margin-bottom: 2rem;
+    
 }
 .virtual{
     font-size: 1.4rem;
@@ -255,12 +272,29 @@ a.attend{
 .pic5{
     margin-top: 7.5rem;
     margin-bottom: 5rem;
+    display: block;
+    width: 375px;
+    height: 304px;
 }
 .five{
     margin-bottom: 10rem;
+    max-width: 589px;
 }
 .f{
     margin-top: 5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 116%;
+    color: var(--text-color1);
+    text-align: center;
+    letter-spacing: 5%;
+    background-color: var(--background-color4);
+    padding-top: 1.5rem;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.5rem;
+    border-radius: 0.5rem;
 }
 .host{
     margin-bottom: 2rem;
@@ -283,6 +317,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     align-items: flex-start;
+    max-width: 1440px;
 }
 .picfoot{
     margin-bottom: 3rem;
@@ -295,14 +330,13 @@ footer{
     display: flex;
     width: 100%;
     justify-content: space-around;   
+    height: 255px;
 }
 .foter{
     display: flex;
     flex-direction: column;
-    height: 24.5rem;
     margin-bottom: 5rem;
     justify-content: space-between;
-    align-self: flex-start;
 }
 .socseti{
     display: flex;
@@ -320,27 +354,24 @@ footer{
 }
 
 .follow{
-    
     text-align: center;
     margin-bottom: 1rem;
-
-
 }
 a{
     text-decoration: none;
 }
 .last{
-    
-    font-size: 1rem;
+    display: block;
     font-weight: 400;
     line-height: 150%;
     color: var(--text-color);
     opacity: 0.3;
     text-align: left;
-    margin-bottom: 2.8rem;
+    padding-bottom: 9rem;
+    padding-left: 1.5rem;
 }
 
-@media (min-width: 900px){
+@media (min-width: 700px){
     .threline{
         display: none;
     }
@@ -348,27 +379,189 @@ a{
         display: flex;
     }
 }
-@media(min-width:1070px){
-    header{
-        height: 13rem;
-    }
+@media(min-width:1640px){
     .navbar-component{
-        padding-left: 15rem;
-        padding-right: 15rem;
-        max-width: 2400px;
+        justify-content: space-around;
+        max-width: 1440px;
     }
+
     section{
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+    h1{
+        font-size: 9.6rem;
+        font-weight: 500;
+        line-height: 10.9rem;
+        text-align: left;
+        margin-bottom: 4rem;
+        margin-right: auto;
+    }
+    .sec2{
+        justify-content: space-around;}
+    h2{
+        font-size: 5.2rem;
+        letter-spacing: 0.05em;
+        display: block;
+        margin-right: auto;
+
+    }
+    p.quote{
+        font-size: 3.2rem;
+        line-height: 130%;
+        color: var(--text-color);
+        margin-right:auto;
+        padding-bottom: 2rem;
+    }
+    p.secound{
+        display: inline;
+        font-size: 2rem;
+        margin-right: auto;
+    }
+    .pic1{
+        margin-top: 1.7em;
+        max-width: 100%;
+        object-fit: cover;
+        width: 66rem;
+        height: 54rem;
+     }
+     .Puzzle{
+        font-size: 2rem;
+        line-height: 150%;
+        color: var(--text-color);
+        text-align: left;
+        padding-top: 4rem;
+        padding-bottom: 5em;
+    }
+    .biochemist{
+        font-size: 2.4rem;
+     }
+    .name1{
+        font-size: 2rem;
+     }
+    .name2{
+        font-size: 2rem;
+    }
+    .img3{
+        width: 101.7rem;
+        height: 101.7rem;
+    }
+    .one{
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 80rem;
+    }
+    .tes{
+        font-size: 5.2rem;
+        letter-spacing: 0.05em;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-weight: 600;
+        line-height: 130%;
+        color: var(--text-color);
+        text-align: center;
+
+    }
+    .foter{
+        height: 251px;
+    }
+    .downmenu{
+        margin-top: 8rem;
+        width: 373px;
+    }
+    .pic5{
+        width: 884px;
+        height: 716px;
+    }
+    .two{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .three{
+        margin-left: 0;
+        margin-right: 0;
+        width: 550px;
+    }
+    .four{
+        margin-left: 0;
+        margin-right: 0;
+        width:540;
+    }
+    .pic4{
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+        display: block;
+        width: 92.6rem;
+        height: 66.2rem;
+    }
+    .math{
+        font-size: 2rem;
+        display: block;
+        margin-right: auto;
+        text-align: left;
+        padding-bottom: 6rem;
+    }
+    .virtual{
+        font-size: 2rem;
+    }
+    .five{
+        margin-left: 0;
+        margin-right: 0;
     }
     .sec4{
         flex-direction: row-reverse;
-        justify-content: space-between;
+    }
+    .but_VOLUN{
+        display: block;
+        margin-right: auto;
+        padding-top: 1.9rem;
+        padding-bottom: 1.9rem;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        background-color: var(--background-color6);
+        margin-top: 4rem;
     }
     .left_strel{
         display: block;
     }
     .right_strel{
         display: block;
+    }
+    .foot{
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 1920px;
+    }
+    .start{
+        width: 322px;
+    }
+    .f{
+        margin-top: 0;
+        width:215px;
+        margin-left:0;
+        display: block;
+    }
+    .picfoot{
+        margin-top: 4rem;
+        width:321px;
+        height: 160px;
+    }
+    .sociaity{
+        width:284px;
+        margin-top: 7rem;
+    }
+    .follow{
+        text-align: left;
+        margin-top: 0;
+        padding-bottom: 2.2rem;
+        margin-bottom: 0;
+    }
+    .socseti{
+        margin-bottom: 5rem;
+    }
+    .last{
+        width: 1440px;
+        margin-left: 240px;
     }
 }
