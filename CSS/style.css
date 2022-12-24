@@ -266,82 +266,32 @@ a.attend{
 .but_VOLUN{
     display: none;
 }
-.form{
+.formbody{
     background-color: var(--background-color2);
-
+    display:block;
+    height: 100%;
 }
-body{
-    font-family: sans-serif;
-  }
-  fieldset{
+.fon_for_form{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
-    color:rgb(7, 7, 7);
-    font-size: 1.5rem;
-    font-weight: 400;
-  }
-  legend{
-    text-align: center;
-    color: rgb(33, 34, 35);
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-    font-size: 2rem;
-    font-weight: 400;
-    align-items: center;
-    justify-content: center;
-
-  }
-  .in{
-    display: flex;
-    margin-bottom: 1rem;
-}
-html, body{
-    height:100%;
-}
-body > footer{
-    position:sticky;
-    top: 100vh;
-}
-.none{
-    min-width: 10rem;
-}
-  .lable{
-    font-size: 2rem;
-    font-weight: 400;
-  }
-  .itam{
-    padding-top:3rem;
-    color:rgb(216, 235, 251);
-  }
-  
-  form {
-    width: 60%;
-    margin-inline: auto;
-    max-width:400px
-  }
-  
-  svg{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     vertical-align: middle;
-  }
+}
+.footerform{
+    padding-left: 3rem;
+    font-size: 2.2rem;
+    line-height: 136%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.block{
   
-  input[type="submit"],
-  input{
     display: block;
-    margin-top: 0.2rem;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-    padding: 5px;
-  }
-  .pol{
-    display: flex; 
-    width: 60%;
-    max-width: 400px;
-    
-  } 
+}
+label{
+    font-size: 1.7rem;
+    text-align: center;
+}
 .pic5{
     margin-top: 7.5rem;
     margin-bottom: 5rem;
@@ -353,6 +303,7 @@ body > footer{
     margin-bottom: 10rem;
     max-width: 900px;
 }
+
 .f{
     margin-top: 5rem;
     font-size: 1.8rem;
@@ -384,6 +335,7 @@ footer{
     font-size: 1.6rem;
     line-height: 130%;
     color: var(--text-color);
+
 }
 .foot{
     padding-left: 1.5rem;
@@ -444,7 +396,108 @@ a{
     padding-bottom: 9rem;
     padding-left: 1.5rem;
 }
+.formhead{
+    background-color: #FFFFFF;
+}
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: 20px;
+    width: 100%;
+    border-color: var(--text-color1);
+    margin-bottom: 2rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70rem;
+    min-width: 32rem; 
+}
+.niz{
+    margin-bottom: 1rem;
+}
+.formp{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
+}
+label{
+    font-size: 1.7rem;
+}
+.in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.none{
+    min-width: 10rem;
+}
+input{
+    display: flex;
+    justify-content: space-around;
+    max-width: 70rem;
+    min-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9rem;
+    padding-left: 2rem;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+legend{
+    color: rgb(24, 33, 40);
+    font-size: 2.5rem;
+    line-height: 100%;
+}
+.for_button{
+    display: flex;
+    max-width: 62rem;
+    min-width: 40rem;
+    justify-content: space-around;
+}
+html, body { 
+    height: 100%;
+}
+input:focus{
+    box-shadow: 0 0 0 3px var(--second-color);
+}
+button:disabled {
+    transform: initial;
+    background-color: initial;
+    color: initial;
+    background-color: var(--text-color1);
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--second-color);
+}
+button:hover {
+    background-color: var(--second-color);
+    transform: scale(1.2);
+    transition: transform 1s, background-color 0.5s;
+    cursor: pointer;
+}
+button:active{
+    background-color: #333;
+    border-color: #333;
+    color: #eee;
+}
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+.but{
+    font-size: 1.5rem;
+}
 @media (min-width: 700px){
     .threline{
         display: none;

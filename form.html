@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="CSS/style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <header>
+<body class="formbody">
+    <header class = "formhead">
         <div class="navbar-component">
           <a class="Mathopolis"  href="index.html"><img src="img/mathopolis-jrmf 2.svg" alt="Mathopolis"width="114" height="36"></a>
           <button class="threline"><img src="img/Group 2013.svg" alt="" width="35" height="25"></button>
@@ -32,46 +32,47 @@
     <main>
         <section class="fon_for_form">
             <form name="contact" method="POST" data-netlify="true">
-                <fieldset>
+                <fieldset class = "box">
                     <legend>Личная информация</legend>
-                    <p><label>Имя<input class="block" type="text" name="Name" placeholder="Имя" required></label>
+                    <p class="formp"><label>Имя<input class="block" type="text" name="Name" placeholder="Имя" required></label>
                     </p>
-                    <p><label>Дата рождения<input class="block" type="date"></label></p>
-                    <p>Пол
+                    <p class="formp"><label>Дата рождения<input class="block" type="date"></label></p>
+                    <p class="formp">Пол
                         <div class="in">
                             <label><input class="none" type="radio" name="gender" value="1">Женский</label>
                             <label><input class="none" type="radio" name="gender" value="2">Мужской</label>
                         </div>
                     </p>
-                    <p><label>Пароль<input class="block" type="password" name="password" id="password" value="password" required></label></p>
+                    <p class="formp"><label>Пароль<input class="block" type="password" name="password" id="password" value="password" required></label></p>
                 </fieldset>
-               <fieldset class="two">
+               <fieldset class="box">
                     <legend>Контактные данные</legend>
-                    <p><label>Почта<input class="block" type="email" name="email" placeholder="jaba@mail.com"></label></p>
-                    <p><label>Телефон<input class="block" type="tel" name="tel" placeholder="+79004564793"></label></p>
-                    <p>Удобный интервал для связи
+                    <p class="formp"><label>Почта<input class="block" type="email" name="email" placeholder="jaba@mail.com"></label></p>
+                    <p class="formp"><label>Телефон<input class="block" type="tel" name="tel" placeholder="+79004564793"></label></p>
+                    <p class="formp">Удобный интервал для связи
                         <div class="in">
-                            <label><input class="none" type="checkbox" name="time" value="1">Утро</label>
-                            <label><input class="none" type="checkbox" name="time" value="2">День</label>
-                            <label><input class="none" type="checkbox" name="time" value="3">Вечер</label>
-                            <label><input class="none" type="checkbox" name="time" value="4">Ночь</label>
+                            <label class="niz"><input class="none" type="checkbox" name="time" value="1">Утро</label>
+                            <label class="niz"><input class="none" type="checkbox" name="time" value="2">День</label>
+                            <label class="niz"><input class="none" type="checkbox" name="time" value="3">Вечер</label>
+                            <label class="niz"><input class="none" type="checkbox" name="time" value="4">Ночь</label>
                         </div>
                     </p>
-                    </fieldset>
-                    <div class="in buttons">
-                        <button type="reset" disabled>
-                            <img src="/img/close.svg" alt="">
-                            <p class="bu">Сбросить</p>
-                        </button>
-                        <button type="submit">
-                            <img src="/img/done.svg" alt="">
-                            <p class="bu">Отправить</p>
-                        </button>
-                    </div>
-                </form>
-            </section>
-        </main>
-    <footer>
+                    <p> </p>
+                </fieldset>
+                <div class="in for_button">
+                    <button type="reset" disabled>
+                        <img src="/img/back.svg" width="44" alt="">
+                        <p class="formp but">Сбросить</p>
+                    </button>
+                    <button type="submit">
+                        <img src="/img/done.svg" width="44" alt="">
+                        <p class="formp but">Отправить</p>
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footerform">
         <a class="term" href="#">Terms of Use</a>
         <a href="#">Privacy Policy</a>
         <p class="last">© 2007–2022 Mathopolis</p>
