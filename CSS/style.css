@@ -386,6 +386,9 @@ footer{
 a{
     text-decoration: none;
 }
+.term{
+    padding-right: 1rem;
+}
 .last{
     display: block;
     font-weight: 400;
@@ -393,7 +396,7 @@ a{
     color: var(--text-color);
     opacity: 0.3;
     text-align: left;
-    padding-bottom: 9rem;
+    padding-bottom: 1rem;
     padding-left: 1.5rem;
 }
 .formhead{
