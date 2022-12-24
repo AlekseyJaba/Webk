@@ -440,6 +440,14 @@ label{
 .none{
     min-width: 10rem;
 }
+.regis{
+    margin-bottom: 5rem;
+    font-size: 6rem;
+    color: #eee;
+}
+.SUB{
+    padding-right: 3rem;
+}
 input{
     display: flex;
     justify-content: space-around;
@@ -494,6 +502,11 @@ button:active{
 body > footer {
   position: sticky;
   top: 100vh;
+}
+.buttonochka{
+    border-radius: 15px;
+    border: 1px;
+    border-color: #333;
 }
 .but{
     font-size: 1.5rem;
