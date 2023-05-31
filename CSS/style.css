@@ -68,6 +68,7 @@ section{
     display: block;
     flex-shrink: 0;
     align-items: center
+
 }
 
 .item-button{
@@ -378,6 +379,13 @@ footer{
     flex-direction: column;
     margin-bottom: 3rem;
 }
+
+
+
+
+
+
+
 
 .follow{
     text-align: center;
